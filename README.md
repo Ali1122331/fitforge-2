@@ -1,70 +1,138 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# FitForge 2 — Fitness & Workout Tracking Web Application
 
-## Available Scripts
+A responsive fitness and workout tracking web application built with ReactJS for the CSCI426 Advanced Web Programming course.
 
-In the project directory, you can run:
+## Live Website
 
-### `npm start`
+**[Visit FitForge 2](https://fitforge-2.vercel.app)**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+FitForge 2 allows users to explore exercises, search and filter workouts, create personalized workout plans, monitor workout progress, and browse fitness-related products.
 
-### `npm test`
+The application features a modern, responsive interface with a black and orange fitness-inspired design.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- **Home:** Introduces the application and its main features.
+- **Workouts:** Displays exercises with images, muscle groups, and workout durations. Users can search and filter exercises.
+- **My Plan:** Allows users to add and remove exercises from their personal workout plan.
+- **Dashboard:** Provides an overview of workout activities and progress.
+- **Market:** Displays fitness products and their details.
+- **Contact:** Provides a contact page.
+- **Login / Register:** Provides a user authentication interface.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Website Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 1. Home Page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![FitForge Home Page](screenshots/home.png)
 
-### `npm run eject`
+### 2. Workouts Page
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![FitForge Workouts Page](screenshots/workouts.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3. My Plan Page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![FitForge My Plan Page](screenshots/workout%20plan.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 4. Dashboard Page
 
-## Learn More
+![FitForge Dashboard](screenshots/fitness%20dashboard.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 5. Market Page
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![FitForge Market Page](screenshots/market.png)
 
-### Code Splitting
+### 6. Contact Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![FitForge Contact Page](screenshots/contact.png)
 
-### Analyzing the Bundle Size
+### 7. Login / Register Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![FitForge Login Page](screenshots/login.png)
 
-### Making a Progressive Web App
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- ReactJS
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- React Router
+- React Hooks (`useState`, `useEffect`, `useContext`)
+- Context API
+- Local Storage
+- Git and GitHub
+- Vercel
 
-### Advanced Configuration
+## Installation and Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Install Node.js and npm.
 
-### Deployment
+2. Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+   ```bash
+   git clone https://github.com/Ali1122331/fitforge-2.git
+   ```
 
-### `npm run build` fails to minify
+3. Open the project folder:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   cd fitforge-2
+   ```
+
+4. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+5. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+6. Open http://localhost:3000 in your browser.
+
+## Project Structure
+
+```text
+fitforge-2/
+├── public/
+├── screenshots/
+│   ├── home.png
+│   ├── workouts.png
+│   ├── workout plan.png
+│   ├── fitness dashboard.png
+│   ├── market.png
+│   ├── contact.png
+│   └── login.png
+├── src/
+│   ├── assets/
+│   │   └── images/
+│   ├── components/
+│   ├── context/
+│   ├── pages/
+│   ├── App.js
+│   └── App.css
+├── package.json
+└── README.md
+```
+
+## Deployment
+
+The application is deployed using Vercel.
+
+**Live Website:** https://fitforge-2.vercel.app
+
+**GitHub Repository:** https://github.com/Ali1122331/fitforge-2
+
+## Academic Information
+
+**Course:** CSCI426 — Advanced Web Programming
+
+**Project:** Phase 1 — Front-End Implementation
+
+**Project Name:** FitForge 2
